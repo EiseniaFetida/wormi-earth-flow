@@ -1,0 +1,50 @@
+[
+  {
+    "id": "res-001",
+    "title": "Standard Operating Procedure (SOP)",
+    "category": "SOP",
+    "summary": "Complete operational guidelines for running a Wormi node, from intake to product release.",
+    "file_url": "/assets/docs/wormi-sop-v2.pdf",
+    "version": "v2.1"
+  },
+  {
+    "id": "res-002",
+    "title": "QA/QC Testing Protocol",
+    "category": "QA/QC",
+    "summary": "Maturity tests (germination index, respiration), pH/EC monitoring, batch labeling, and quarantine procedures.",
+    "file_url": "/assets/docs/wormi-qaqc-protocol.pdf",
+    "version": "v1.3"
+  },
+  {
+    "id": "res-003",
+    "title": "DIY CFT Build Guide",
+    "category": "DIY CFT",
+    "summary": "Step-by-step instructions to build a Continuous Flow Through vermireactor at home or for your node.",
+    "file_url": "/assets/docs/diy-cft-guide.pdf",
+    "version": "v1.0"
+  },
+  {
+    "id": "res-004",
+    "title": "Safety & Contamination Guidelines",
+    "category": "Safety",
+    "summary": "Biofilter setup, contamination prevention, personal protective equipment, and emergency protocols.",
+    "file_url": "/assets/docs/safety-guidelines.pdf",
+    "version": "v1.2"
+  },
+  {
+    "id": "res-005",
+    "title": "Vermicomposting 101",
+    "category": "Education",
+    "summary": "Beginner-friendly introduction to vermicomposting science, worm biology, and system design.",
+    "file_url": "/assets/docs/vermicomposting-101.pdf",
+    "version": "v1.0"
+  },
+  {
+    "id": "res-006",
+    "title": "Batch Documentation Template",
+    "category": "QA/QC",
+    "summary": "Printable template for tracking batch codes, test results, and release dates.",
+    "file_url": "/assets/docs/batch-template.pdf",
+    "version": "v1.1"
+  }
+]

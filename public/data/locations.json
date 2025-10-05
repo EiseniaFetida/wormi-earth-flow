@@ -1,0 +1,80 @@
+[
+  {
+    "id": "loc-001",
+    "name": "City Market Node",
+    "type": "dropoff",
+    "address": "200 W Water St, Charlottesville, VA",
+    "city": "Charlottesville",
+    "hours": "Saturdays 7am-12pm",
+    "accepted": "Fruit & veg scraps, coffee grounds, tea bags, eggshells. No: meat, dairy, oils, pet waste.",
+    "rules": "Max 5 lbs per visit. Clear bags preferred. No contamination.",
+    "lat": 38.0293,
+    "lng": -78.4767,
+    "active": true
+  },
+  {
+    "id": "loc-002",
+    "name": "IX Art Park Dispense",
+    "type": "dispense",
+    "address": "522 2nd St SE, Charlottesville, VA",
+    "city": "Charlottesville",
+    "hours": "Fridays 4pm-7pm",
+    "accepted": "N/A - Dispense only",
+    "rules": "Bring your own containers. Max 2 gallons AVT or 10 lbs vermicast per household.",
+    "lat": 38.0249,
+    "lng": -78.4794,
+    "active": true
+  },
+  {
+    "id": "loc-003",
+    "name": "Meade Park Collection",
+    "type": "dropoff",
+    "address": "1000 Meade Ave, Charlottesville, VA",
+    "city": "Charlottesville",
+    "hours": "Sundays 9am-1pm",
+    "accepted": "Fruit & veg scraps, coffee grounds, cardboard, paper towels.",
+    "rules": "≤24h dwell time. Biofiltered node. Clear rules posted on-site.",
+    "lat": 38.0412,
+    "lng": -78.5045,
+    "active": true
+  },
+  {
+    "id": "loc-004",
+    "name": "Pen Park Seasonal Pop-up",
+    "type": "popup",
+    "address": "1300 Pen Park Rd, Charlottesville, VA",
+    "city": "Charlottesville",
+    "hours": "Seasonal - check events",
+    "accepted": "Drop-off & dispense",
+    "rules": "Active during spring/fall events only.",
+    "lat": 38.0617,
+    "lng": -78.4586,
+    "active": true
+  },
+  {
+    "id": "loc-005",
+    "name": "UVA Sustainability Hub",
+    "type": "dropoff",
+    "address": "1784 University Cir, Charlottesville, VA",
+    "city": "Charlottesville",
+    "hours": "M-F 9am-5pm (academic year)",
+    "accepted": "Pre-consumer food scraps only. No post-consumer.",
+    "rules": "Student/staff/faculty access. Weight limits posted.",
+    "lat": 38.0336,
+    "lng": -78.5080,
+    "active": true
+  },
+  {
+    "id": "loc-006",
+    "name": "Belmont Community Center",
+    "type": "dispense",
+    "address": "500 Belmont Ave, Charlottesville, VA",
+    "city": "Charlottesville",
+    "hours": "First Saturday of month, 10am-2pm",
+    "accepted": "N/A - Dispense only",
+    "rules": "Free vermicast for Belmont residents. Proof of address required.",
+    "lat": 38.0206,
+    "lng": -78.4708,
+    "active": true
+  }
+]

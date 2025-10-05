@@ -1,0 +1,86 @@
+[
+  {
+    "batch_code": "VC-CVL-2025-089",
+    "product": "vermicast",
+    "qc_status": "pass",
+    "tests": {
+      "GI": 95,
+      "respiration": "stable",
+      "CN": "12:1",
+      "EC": "2.1 mS/cm",
+      "pH": "7.2"
+    },
+    "released_at": "2025-09-28",
+    "notes": "Fully mature, ready for dispensing."
+  },
+  {
+    "batch_code": "AVT-CVL-2025-042",
+    "product": "AVT",
+    "qc_status": "pass",
+    "tests": {
+      "GI": 98,
+      "respiration": "active",
+      "CN": "N/A",
+      "EC": "1.8 mS/cm",
+      "pH": "6.9"
+    },
+    "released_at": "2025-10-02",
+    "notes": "High microbial activity, excellent for foliar application."
+  },
+  {
+    "batch_code": "VC-CVL-2025-090",
+    "product": "vermicast",
+    "qc_status": "pending",
+    "tests": {
+      "GI": "in progress",
+      "respiration": "monitoring",
+      "CN": "awaiting lab",
+      "EC": "2.3 mS/cm",
+      "pH": "7.1"
+    },
+    "released_at": null,
+    "notes": "Awaiting GI results before release."
+  },
+  {
+    "batch_code": "AVT-CVL-2025-043",
+    "product": "AVT",
+    "qc_status": "fail",
+    "tests": {
+      "GI": 62,
+      "respiration": "unstable",
+      "CN": "N/A",
+      "EC": "3.2 mS/cm",
+      "pH": "8.4"
+    },
+    "released_at": null,
+    "notes": "Quarantined - pH too high, likely contamination. Re-brewing required."
+  },
+  {
+    "batch_code": "VC-CVL-2025-088",
+    "product": "vermicast",
+    "qc_status": "pass",
+    "tests": {
+      "GI": 92,
+      "respiration": "stable",
+      "CN": "11:1",
+      "EC": "2.0 mS/cm",
+      "pH": "7.0"
+    },
+    "released_at": "2025-09-22",
+    "notes": "Distributed at City Market pop-up."
+  },
+  {
+    "batch_code": "VC-CVL-2025-091",
+    "product": "vermicast",
+    "qc_status": "pending",
+    "tests": {
+      "GI": "scheduled",
+      "respiration": "not yet tested",
+      "CN": "N/A",
+      "EC": "2.2 mS/cm",
+      "pH": "7.3"
+    },
+    "released_at": null,
+    "notes": "Fresh batch - testing begins next week."
+  }
+]

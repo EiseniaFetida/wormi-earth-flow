@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Jordan Myles",
+    "role": "Founder & Lead Vermiculturist",
+    "link": "https://example.com",
+    "photo_url": null
+  },
+  {
+    "name": "Sam Rivera",
+    "role": "QA/QC Director",
+    "link": null,
+    "photo_url": null
+  },
+  {
+    "name": "Taylor Chen",
+    "role": "Community Organizer",
+    "link": null,
+    "photo_url": null
+  },
+  {
+    "name": "Alex Patel",
+    "role": "CFT Systems Engineer",
+    "link": "https://example.com",
+    "photo_url": null
+  }
+]
