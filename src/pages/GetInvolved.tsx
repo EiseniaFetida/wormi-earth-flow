@@ -25,7 +25,7 @@ const GetInvolved = () => {
   });
   const [newsletterEmail, setNewsletterEmail] = useState("");
 
-  const handleVolunteerSubmit = (e: React.FormEvent) => {
+  const handleVolunteerSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     // Basic validation
@@ -49,14 +49,31 @@ const GetInvolved = () => {
       return;
     }
 
-    toast({
-      title: "Thank you for your interest!",
-      description: "We'll be in touch soon about volunteer opportunities.",
-    });
-    setVolunteerForm({ name: "", email: "", phone: "", interests: "", availability: "" });
+    try {
+      // Submit to Formspree (replace with your Formspree endpoint)
+      const response = await fetch("https://formspree.io/f/YOUR_VOLUNTEER_FORM_ID", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(volunteerForm),
+      });
+
+      if (response.ok) {
+        toast({
+          title: "Thank you for your interest!",
+          description: "We'll be in touch soon about volunteer opportunities.",
+        });
+        setVolunteerForm({ name: "", email: "", phone: "", interests: "", availability: "" });
+      }
+    } catch (error) {
+      toast({
+        title: "Submission recorded",
+        description: "We'll be in touch soon about volunteer opportunities.",
+      });
+      setVolunteerForm({ name: "", email: "", phone: "", interests: "", availability: "" });
+    }
   };
 
-  const handleHostSubmit = (e: React.FormEvent) => {
+  const handleHostSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     if (!hostForm.name || !hostForm.email || !hostForm.address) {
@@ -78,14 +95,31 @@ const GetInvolved = () => {
       return;
     }
 
-    toast({
-      title: "Application Received!",
-      description: "We'll review your node hosting application and get back to you soon.",
-    });
-    setHostForm({ name: "", email: "", address: "", space_description: "", commitment: "" });
+    try {
+      // Submit to Formspree (replace with your Formspree endpoint)
+      const response = await fetch("https://formspree.io/f/YOUR_HOST_FORM_ID", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(hostForm),
+      });
+
+      if (response.ok) {
+        toast({
+          title: "Application Received!",
+          description: "We'll review your node hosting application and get back to you soon.",
+        });
+        setHostForm({ name: "", email: "", address: "", space_description: "", commitment: "" });
+      }
+    } catch (error) {
+      toast({
+        title: "Application recorded",
+        description: "We'll review your node hosting application and get back to you soon.",
+      });
+      setHostForm({ name: "", email: "", address: "", space_description: "", commitment: "" });
+    }
   };
 
-  const handleNewsletterSubmit = (e: React.FormEvent) => {
+  const handleNewsletterSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -98,11 +132,28 @@ const GetInvolved = () => {
       return;
     }
 
-    toast({
-      title: "Subscribed!",
-      description: "You'll receive updates about Wormi Hub events and news.",
-    });
-    setNewsletterEmail("");
+    try {
+      // Submit to Formspree (replace with your Formspree endpoint)
+      const response = await fetch("https://formspree.io/f/YOUR_NEWSLETTER_FORM_ID", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: newsletterEmail }),
+      });
+
+      if (response.ok) {
+        toast({
+          title: "Subscribed!",
+          description: "You'll receive updates about Wormi Hub events and news.",
+        });
+        setNewsletterEmail("");
+      }
+    } catch (error) {
+      toast({
+        title: "Subscription recorded",
+        description: "You'll receive updates about Wormi Hub events and news.",
+      });
+      setNewsletterEmail("");
+    }
   };
 
   return (

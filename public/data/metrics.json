@@ -2,28 +2,28 @@
   {
     "key": "kg_organics",
     "label": "Kg organics captured",
-    "value": 12480,
+    "value": "XX",
     "unit": "kg",
     "as_of": "2025-10-01"
   },
   {
     "key": "contam_rate",
     "label": "Contamination rate",
-    "value": "1.4%",
+    "value": "XX",
     "unit": "%",
     "as_of": "2025-10-01"
   },
   {
     "key": "avt_liters",
     "label": "Liters AVT dispensed",
-    "value": 2680,
+    "value": "XX",
     "unit": "L",
     "as_of": "2025-10-01"
   },
   {
     "key": "sites_active",
     "label": "Active nodes",
-    "value": 6,
+    "value": "XX",
     "unit": "nodes",
     "as_of": "2025-10-01"
   }
