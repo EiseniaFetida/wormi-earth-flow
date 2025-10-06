@@ -55,12 +55,12 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button asChild size="lg" className="bg-accent-green hover:bg-accent-green/90 text-white">
               <Link to="/locations">
-                Find a Drop-off <ArrowRight className="ml-2 h-5 w-5" />
+                feed soil <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-2">
               <Link to="/events">
-                Join a Workshop
+                enter wormhole
               </Link>
             </Button>
           </div>
