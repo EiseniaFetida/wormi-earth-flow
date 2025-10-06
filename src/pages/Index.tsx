@@ -47,10 +47,10 @@ const Index = () => {
       <section className="gradient-hero py-24 px-4">
         <div className="container mx-auto text-center space-y-6">
           <h1 className="text-5xl md:text-6xl font-bold text-foreground">
-            Decentralized Vermicomposting
+            Not Trash
           </h1>
           <p className="text-xl md:text-2xl text-foreground/90 max-w-2xl mx-auto">
-            For visible circularity in your community
+            community vermicomposting loop
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button asChild size="lg" className="bg-accent-green hover:bg-accent-green/90 text-white">

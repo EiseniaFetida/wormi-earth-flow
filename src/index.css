@@ -106,7 +106,15 @@ All colors MUST be HSL.
 
 @layer components {
   .gradient-hero {
-    background: var(--gradient-hero);
+    background-image: url('/src/assets/light.HEIC');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .dark .gradient-hero {
+    background-image: url('/src/assets/dark.jpeg');
   }
   
   .gradient-card {
