@@ -47,7 +47,7 @@ const Index = () => {
       <section className="gradient-hero py-24 px-4">
         <div className="container mx-auto text-center space-y-6">
           <h1 className="text-5xl md:text-6xl font-bold text-foreground">
-            community vermicomposting loop
+            eat dirt
           </h1>
           <p className="text-xl md:text-2xl text-foreground/90 max-w-2xl mx-auto">
             not trash
