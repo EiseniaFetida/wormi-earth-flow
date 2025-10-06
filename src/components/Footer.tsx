@@ -11,7 +11,6 @@ const Footer = () => {
           <div className="space-y-3">
             <h3 className="font-bold text-lg">
               <span className="text-accent-green">Wormi</span>
-              <span className="text-accent-orange"> Hub</span>
             </h3>
             <p className="text-sm text-muted-foreground">
               Decentralized vermicomposting for visible circularity.
