@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-3">
             <h3 className="font-bold text-lg">
-              <span className="text-accent-green">Wormi</span>
+              <span className="text-accent-green">wormi</span>
             </h3>
             <p className="text-sm text-muted-foreground">
               Decentralized vermicomposting for visible circularity.
@@ -77,7 +77,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>&copy; {year} Wormi. All rights reserved.</p>
+          <p>&copy; {year} wormi. All rights reserved.</p>
         </div>
       </div>
     </footer>
