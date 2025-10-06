@@ -43,7 +43,6 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-2">
             <div className="text-2xl font-bold">
               <span className="text-accent-green">Wormi</span>
-              <span className="text-accent-orange"> Hub</span>
             </div>
           </Link>
 
