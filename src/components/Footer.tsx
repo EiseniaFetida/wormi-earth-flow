@@ -67,17 +67,17 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-3">Contact</h4>
             <a
-              href="mailto:hello@wormihub.org"
+              href="jab3rv@virginia.edu"
               className="flex items-center gap-2 text-sm text-muted-foreground hover:text-accent-green transition-colors"
             >
               <Mail className="h-4 w-4" />
-              hello@wormihub.org
+              jab3rv@virginia.edu
             </a>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>&copy; {year} Wormi Hub. All rights reserved.</p>
+          <p>&copy; {year} Wormi. All rights reserved.</p>
         </div>
       </div>
     </footer>
